@@ -10,8 +10,8 @@
 /* These styles assume you are using ul and li */
 .dropit {
     list-style: none;
-    padding: 0;
-    margin: 15px, 0 0;
+  padding: 0;
+  margin: 15, 0 0;
     float: right;
     display: inline-block;
 }
@@ -19,13 +19,13 @@
 .dropit .dropit-submenu {
     position: absolute;
     top: 100%;
-    right: 0; /* dropdown left or right */
+    right: 0; /* dropdown right */
     z-index: 1000;
     display: none;
     min-width: 100px;
     list-style: none;
-    padding: 20px;
-    margin: 20px 0 0;
+  padding: 20;
+  margin: 20px 0 0;
 }
 .dropit .dropit-open .dropit-submenu { 
     display: block; 
